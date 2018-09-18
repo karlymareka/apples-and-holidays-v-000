@@ -68,12 +68,14 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season, holiday|
     puts "#{season.capitalize}:"
     holiday.each do |holiday, decorations|
-      holiday["_"] = " "
+      holiday.gsub("_", " ")
       decorations_two = decorations.join(", ")
       puts "  #{holiday.capitalize}: #{decorations_two}"
     end
   end 
-end 
+end
+myString.gsub("PHP", "Ruby")
+=> "Welcome to Ruby Essentials!"
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
