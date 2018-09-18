@@ -74,8 +74,6 @@ def all_supplies_in_holidays(holiday_hash)
     end
   end 
 end
-myString.gsub("PHP", "Ruby")
-=> "Welcome to Ruby Essentials!"
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
