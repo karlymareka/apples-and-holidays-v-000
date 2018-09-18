@@ -70,10 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday, decorations|
       decorations.join(",")
       print "  #{holiday.capitalize}: #{decorations} "
-      binding.pry 
-      #decorations.each do |decoration|
-        #print " #{decoration}, "
-      #end 
     end
   end 
 end
