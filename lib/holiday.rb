@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |holiday, decorations|
       decorations_two = decorations.join(", ")
       #holiday_two = holiday.gsub("_", " ")
-      puts "  #{holiday_two.capitalize}: #{decorations_two}"
+      puts "  #{holiday.capitalize}: #{decorations_two}"
     end
   end 
 end
