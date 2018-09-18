@@ -71,7 +71,6 @@ def all_supplies_in_holidays(holiday_hash)
       print "  #{holiday.capitalize}: #{decorations} "
       #decorations.each do |decoration|
         #print " #{decoration}, "
-        #binding.pry 
       #end 
     end
   end 
